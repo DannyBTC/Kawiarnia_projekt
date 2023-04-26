@@ -1,0 +1,189 @@
+:root {
+    box-sizing: border-box;
+    color:rgba(214, 136, 136, 0.712);
+}
+
+*, ::before, ::after{
+    box-sizing: inherit;
+}
+
+body {
+    background-image: url(https://pixabay.com/get/g3a9bed4e1b7e346ea21e6c76b1855f43df671d75462a83854fcc6ef2e799ed817a2ddb7c12094e4cf1fcf6e7f419dfa0a09e967fa33797a2c64a10fe37015759_1920.jpg);
+    background-size: cover;
+    
+}
+
+#header {
+    background: black;
+    padding: 5px;
+    font-family: 'Cookie', Arial, Helvetica, sans-serif;
+}
+
+#logo img {
+    width: 60%;
+    padding-left: 10px;
+}
+
+#logo {
+    float: left;
+    width: 15%;
+}
+
+.menu {
+    float: left;
+    width: 70%;
+}
+
+.menu ul li {
+    display: inline;
+    padding-right: 20px;
+}
+
+.menu ul li a {
+    color: rgba(214, 136, 136, 0.712);
+    font-size: 1.4em;
+    text-decoration: none;
+    text-align: center;
+}
+
+.menu ul li a:hover {
+    color: rgba(209, 55, 55, 0.712);
+}
+
+.contact-menu {
+    float: left;
+    
+}
+
+.contact-menu .tel {
+    font-size: 1.2rem;
+    margin: 25px auto 0px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.slider-box {
+    height: 200px;
+    background-color: black;
+}
+
+.slider-half-item {
+    width: 50%;
+    float: left;
+    height: 100%;
+    font-family: cursive, Geneva;
+    padding: 10px;
+}
+
+.slider-half-item article {
+    margin: 2rem;
+} 
+
+.slider-half-item article .button-section{
+    margin-top: 1rem;
+} 
+
+.slider-half-item .button {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgba(214, 136, 136, 0.712);
+    padding: 8px;
+    margin: 2px;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.order-button {
+    color: rgba(153, 212, 75, 0.568);
+    border: 2px solid rgba(153, 212, 75, 0.568);
+}
+
+
+.book-button {
+    color: rgba(214, 64, 127, 0.822);
+    border: 2px solid rgba(214, 64, 127, 0.822);
+
+
+}
+
+.order-button:hover, .book-button:hover {
+    color: rgba(209, 55, 55, 0.712);
+    background-color: #333333;
+}
+
+.pizza-img {
+    background-image: url(https://cdn.pixabay.com/photo/2013/11/05/23/55/coffee-206142__340.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+} 
+
+.advantages-box {
+    background-color: transparent;
+}
+
+.advantages-one-third {
+    width: 33.3%;
+    float: left;
+    padding: 20px;
+    margin: 30px 0 30px;
+}
+
+.column-advantage {
+    height: 200px;
+    border: 5px solid rgba(209, 55, 55, 0.712);
+    text-align: center;
+    color: white;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    font-family: cursive,Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.best-ingredients {
+    background-image: url(https://cdn.pixabay.com/photo/2018/05/12/00/32/coffee-3392168__340.jpg);
+}
+
+.orginal-recipe {
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/29/12/52/coffee-1869647__340.jpg);
+}
+
+.fast-delivery {
+    background-image: url(https://cdn.pixabay.com/photo/2016/02/21/20/24/courier-1214227__340.jpg);
+
+}
+
+.bottom-right {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.kitchen-menu {
+    background-color: black;
+}
+
+.menu-one-forth {
+    float: left;
+    width: 25%;
+    font-family: cursive, Geneva;
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 20px;
+}
+
+.menu-one-forth img {
+    width: 100%;
+}
+
+.page-footer {
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    font-family: 'Cookie', Arial;
+}
